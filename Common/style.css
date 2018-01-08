@@ -1,0 +1,65 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+ 
+    Created on : 17-Dec-2017, 8:06:23 PM
+    Author     : Patrick*/
+
+
+div.scrollmenu {
+    background-color: #333;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #777;
+}
+
+.img-container{
+    text-align: center;
+    display: block;
+    height: 100%;
+    position: relative;
+}
+
+.img-container > a{
+    display: none;
+    position: relative;
+}
+
+.img-container:hover > a{
+    display: inline-block;
+    color: blue;
+    font-style: normal;
+    z-index: 100;
+    position: relative;
+}
+
+.img-container:hover img{
+    opacity: 0.5;
+}
+
+.glyphicon {
+    font-size: 40px;
+    color: blue;
+}
+
+.gly-flip-horizontal {
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+    -webkit-transform: scale(-1, 1);
+    -moz-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+}
